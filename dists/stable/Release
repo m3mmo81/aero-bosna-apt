@@ -1,31 +1,31 @@
 Architectures: amd64 all
 Codename: stable
 Components: main
-Date: Wed, 18 Nov 2026 15:58:24 +0000
+Date: Wed, 18 Nov 2026 16:25:56 +0000
 Label: Aero Bosna
 Origin: Aero Bosna
 Suite: stable
 MD5Sum:
- 4e25819388b64114ca3b31e021477ba8              148 Release
+ d51f28a0bdda6f8f9f2269ef2c541bf2              148 Release
  5b1cdd7932cb28092af779b716c4ef1b             2995 main/binary-all/Packages
- 04b61a8199b745d79e05ff1ba8340358             1473 main/binary-all/Packages.gz
- 5b1cdd7932cb28092af779b716c4ef1b             2995 main/binary-amd64/Packages
- 04b61a8199b745d79e05ff1ba8340358             1473 main/binary-amd64/Packages.gz
+ c93ca35a6590b0b623d05354c517f682             1473 main/binary-all/Packages.gz
+ 155d9a5147b34cd195c5a8bce0549b2c             3863 main/binary-amd64/Packages
+ a2871180c8fa3c9f97a3049860e96c4e             1929 main/binary-amd64/Packages.gz
 SHA1:
- 986352e12b9972c21911fbb212ff11d2ae7d72b6              148 Release
+ a92bd69cbb950ca5c86363dd9455c760a575381e              148 Release
  6b378296b530d5ebb63b2af2f35aef68cdc66982             2995 main/binary-all/Packages
- 02f625653171f8dd4dcf8de1bca102f77f0a1884             1473 main/binary-all/Packages.gz
- 6b378296b530d5ebb63b2af2f35aef68cdc66982             2995 main/binary-amd64/Packages
- 02f625653171f8dd4dcf8de1bca102f77f0a1884             1473 main/binary-amd64/Packages.gz
+ 2000dee8ace40bd67511912582f4f5248c7c11be             1473 main/binary-all/Packages.gz
+ 87b2fea3f3efdf0e3ba6b3c18d46b116dfc635da             3863 main/binary-amd64/Packages
+ 30fc9312838ea3ed735259c1e539b2fd5714a636             1929 main/binary-amd64/Packages.gz
 SHA256:
- c2e07a24bb2b13567e81429691b9f4cdd6e0adc27a7281ef27567c9b7b0ebaa6              148 Release
+ c795fec6e50ae362855ac3ecf60e7abe8f80e7d3164886bb5dc46d5cc654d0f4              148 Release
  603c9098d104610ad1ebde38471cb40b06d6e52c11ebdb607bd1e600235133cc             2995 main/binary-all/Packages
- faffe895101c97ff0caad0de60c9882ad1d02d1a5ab5fece2f4ceab1dbba9e0f             1473 main/binary-all/Packages.gz
- 603c9098d104610ad1ebde38471cb40b06d6e52c11ebdb607bd1e600235133cc             2995 main/binary-amd64/Packages
- faffe895101c97ff0caad0de60c9882ad1d02d1a5ab5fece2f4ceab1dbba9e0f             1473 main/binary-amd64/Packages.gz
+ 043028cac6d69374c1e7b93a380a0573b8a83d6947ccf1f8edea5aea584f5958             1473 main/binary-all/Packages.gz
+ a97fce947afb75d02db03ba2fe29bb5dd3bb1cf8badcae1e2ab8985b5433c8af             3863 main/binary-amd64/Packages
+ 7c1f0e538acfbd302924db9e014e915be7ddfdf961f8fbd0e704fce78bb55ad7             1929 main/binary-amd64/Packages.gz
 SHA512:
- e1ec71b27aef904b6a7ad08379a5f089f092fecc7428117bc3e8d57074f5e275a3da102942adea60c624813d30324eb4719417c8ba0198846fc4c07729f8da5c              148 Release
+ 652a68d702cc2580b5dca37857c93d984653d86bf83ff617bab768d2851441cd91268b5f7a9db40e6a6a5a533daa0919f12419b5bb37ead6e9f2fb5c125cc243              148 Release
  42ea934793637e20a487ac55ca7018cddad3169b87eda810c8f5668a3268f7c87cc13aaabdf52d2007fde0bcdbe7107adcfa8e45c6d126472c3a3f902e222358             2995 main/binary-all/Packages
- b52dc5615a074cb9c313f94d3751b320148594aa6195185e78934c929971766305d6676c87ddc60106a37fe940a4ed60b2e9addacb01f4a8f7e0d35b46ac2c04             1473 main/binary-all/Packages.gz
- 42ea934793637e20a487ac55ca7018cddad3169b87eda810c8f5668a3268f7c87cc13aaabdf52d2007fde0bcdbe7107adcfa8e45c6d126472c3a3f902e222358             2995 main/binary-amd64/Packages
- b52dc5615a074cb9c313f94d3751b320148594aa6195185e78934c929971766305d6676c87ddc60106a37fe940a4ed60b2e9addacb01f4a8f7e0d35b46ac2c04             1473 main/binary-amd64/Packages.gz
+ 280b6409fab4c7f419ec8630667ee0ecf61e3b503ac63f7947088f5bf93963524f89bcebf6beb0d1c49651d28f0fec6475da29d00b0c93a5725a63dea05d887e             1473 main/binary-all/Packages.gz
+ f1db5dd2e86ee62a1d8b1bf38c7d1fd82ff79b36f7f442193094ab2dd29401dab615d5a010fc105fea8fcdfd6bfc206e3337106c1bb275294efaf55a47908524             3863 main/binary-amd64/Packages
+ c15aee189d37dec33f4a01958658a12ebf2ff305c9828705eab875b005881aff8eed4c0c508f012efb042c1ff7a9ee283decf5bd25a29b72c6a5af459623f422             1929 main/binary-amd64/Packages.gz

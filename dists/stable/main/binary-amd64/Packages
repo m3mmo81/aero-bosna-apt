@@ -65,3 +65,24 @@ Description: Aero Bosna Welcome window
  Shown after login: first steps (Wi-Fi, updates, Timeshift, wallpaper,
  keyboard, settings), office and media apps, and short tips.
 
+Package: kktv
+Architecture: amd64
+Version: 1.5.6
+Priority: optional
+Section: default
+Maintainer: Karabeg dr Kemal <kemal.karabeg@gmail.com>
+Installed-Size: 281349
+Depends: mpv, libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: pool/main/kktv_1.5.6_amd64.deb
+Size: 101199540
+MD5sum: 1f8e95245e49006570098649a33a0269
+SHA1: bdfad55e9d03f2624417024660d56efaf6f7f7f2
+SHA256: 627b0339cf0ad6f0b35b29cc981b0946af740ab3ab68f7255ae3d0082928edb7
+SHA512: 1f9dfd62f93e148229a67dc887bd1f1a09c60ade7c99779f9a9e625713cc1708103f57baa5465969e32ac52ad7d98d509afd9502992fb6cedfd1ae7d96821a55
+Homepage: https://it.drkarabeg.ba
+Description: IPTV player (TV uživo, filmovi, serije)
+  KKTV - IPTV player za M3U i Xtream Codes
+License: UNLICENSED
+Vendor: Karabeg dr Kemal <kemal.karabeg@gmail.com>
+
