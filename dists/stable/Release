@@ -1,31 +1,31 @@
 Architectures: amd64 all
 Codename: stable
 Components: main
-Date: Wed, 18 Nov 2026 15:01:36 +0000
+Date: Wed, 18 Nov 2026 15:35:32 +0000
 Label: Aero Bosna
 Origin: Aero Bosna
 Suite: stable
 MD5Sum:
- 0a10e8b0844e04dc55ee17d39aeb543b              148 Release
- 94506d5173ad8415cfe5a4c4279125ca             2915 main/binary-all/Packages
- 2c5acebac7628863d3af22f609479996             1409 main/binary-all/Packages.gz
- 94506d5173ad8415cfe5a4c4279125ca             2915 main/binary-amd64/Packages
- 2c5acebac7628863d3af22f609479996             1409 main/binary-amd64/Packages.gz
+ 435ea8e4cbfcc24126286cc74665dd12              148 Release
+ f47299e8b545c751c331dfbc9d17ff0d             2995 main/binary-all/Packages
+ 124e4591bc3be86e0f3427df753297bb             1465 main/binary-all/Packages.gz
+ f47299e8b545c751c331dfbc9d17ff0d             2995 main/binary-amd64/Packages
+ 124e4591bc3be86e0f3427df753297bb             1465 main/binary-amd64/Packages.gz
 SHA1:
- 3d9c232611479d5b6761095b1703825b07ab39d7              148 Release
- d1aeb4924d4219c3c91a627342db6b239fb0727f             2915 main/binary-all/Packages
- 4713b079f40b1e2887a1d59180084eab89fefde0             1409 main/binary-all/Packages.gz
- d1aeb4924d4219c3c91a627342db6b239fb0727f             2915 main/binary-amd64/Packages
- 4713b079f40b1e2887a1d59180084eab89fefde0             1409 main/binary-amd64/Packages.gz
+ debb902a97688c301ddd8880bee13de1dc101dbf              148 Release
+ 83a5c1a757874c223ce8fa34c032a15744cb7a79             2995 main/binary-all/Packages
+ dbed09f411b17e8be48fe35a34ad29dc6a42a6a1             1465 main/binary-all/Packages.gz
+ 83a5c1a757874c223ce8fa34c032a15744cb7a79             2995 main/binary-amd64/Packages
+ dbed09f411b17e8be48fe35a34ad29dc6a42a6a1             1465 main/binary-amd64/Packages.gz
 SHA256:
- c2b59d58e811ad69e3ab7912facddd409f901257c8187492c8db6cc59d64727b              148 Release
- 5236444fbd9d0b05a7e5dc981c6c6d75d6254f44db2cb74ebc1de8401ddd6672             2915 main/binary-all/Packages
- bbeda1a78f9113cc8bdf2fdab0fd6510a5c5354d8da04a51096403d9fe6e89f6             1409 main/binary-all/Packages.gz
- 5236444fbd9d0b05a7e5dc981c6c6d75d6254f44db2cb74ebc1de8401ddd6672             2915 main/binary-amd64/Packages
- bbeda1a78f9113cc8bdf2fdab0fd6510a5c5354d8da04a51096403d9fe6e89f6             1409 main/binary-amd64/Packages.gz
+ 99aad989982b3dd74cbf0f4267ea7864a64c0b1625857611b2f916a68b1624d7              148 Release
+ 13bbbbcd9cbc54fc28928d82fe269223ac1f22b1ba21f1dbf84960a91b476b34             2995 main/binary-all/Packages
+ 71fcc6c73cb8ff7cba653efcf56ba101f2c69b05ef31ab35d36362ad4c54d616             1465 main/binary-all/Packages.gz
+ 13bbbbcd9cbc54fc28928d82fe269223ac1f22b1ba21f1dbf84960a91b476b34             2995 main/binary-amd64/Packages
+ 71fcc6c73cb8ff7cba653efcf56ba101f2c69b05ef31ab35d36362ad4c54d616             1465 main/binary-amd64/Packages.gz
 SHA512:
- 1ff5ced82b8f296f785702210e8867327a544f611c6ba7a4e280c13955d2eac72c8730f0450de2e9445f24ff7a20feff26e8739187bc0a8e135e2072fec92ddc              148 Release
- ae600df426970da5aa41c4110fc3910596f9702a6a2458fbfadb26e1cbcaed6b99c8c36347ade9d5c4f329f532fdd5d5d6c01283d858fd98fc223d4f7bd35aa1             2915 main/binary-all/Packages
- a8110760ded307ac11e8a40cd9dd2d42eaa35f2a3629d74ad0999bde80d1a4bfb2e17d88f0891a514aa82a71e8542156cc8d246da74ff22b6f2b74021d99530c             1409 main/binary-all/Packages.gz
- ae600df426970da5aa41c4110fc3910596f9702a6a2458fbfadb26e1cbcaed6b99c8c36347ade9d5c4f329f532fdd5d5d6c01283d858fd98fc223d4f7bd35aa1             2915 main/binary-amd64/Packages
- a8110760ded307ac11e8a40cd9dd2d42eaa35f2a3629d74ad0999bde80d1a4bfb2e17d88f0891a514aa82a71e8542156cc8d246da74ff22b6f2b74021d99530c             1409 main/binary-amd64/Packages.gz
+ 7025a86c20fb0a91685b81c67835aa3b1bb95f7d7cef1824415cf06cc1826a9cb1cc658e62fc71835d8f112aace48fcfa2725567d2bfaee25c038537ec8ba19a              148 Release
+ 72647ed44f9385b938bf23ffff9a0a14234222b88f90daea36fa597455f797b151c9589a4424faecda0418caa9768ca8cbae999f919ff202bc8dcf8d327a8c43             2995 main/binary-all/Packages
+ d26c6a4e4febb50027cde6e08e72cb3024b2f289ea6702c4f533a9841c5043ae7d6ca1542438886eada8832ffef287c1ff0356f62576d972feababfeda5961d4             1465 main/binary-all/Packages.gz
+ 72647ed44f9385b938bf23ffff9a0a14234222b88f90daea36fa597455f797b151c9589a4424faecda0418caa9768ca8cbae999f919ff202bc8dcf8d327a8c43             2995 main/binary-amd64/Packages
+ d26c6a4e4febb50027cde6e08e72cb3024b2f289ea6702c4f533a9841c5043ae7d6ca1542438886eada8832ffef287c1ff0356f62576d972feababfeda5961d4             1465 main/binary-amd64/Packages.gz
