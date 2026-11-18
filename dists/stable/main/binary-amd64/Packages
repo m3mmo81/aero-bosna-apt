@@ -1,47 +1,47 @@
 Package: aero-bosna-apt
 Architecture: all
-Version: 1.0.60
+Version: 1.0.62
 Priority: optional
 Section: admin
 Maintainer: Aero Bosna <noreply@aero-bosna.invalid>
-Filename: pool/main/aero-bosna-apt_1.0.60_all.deb
+Filename: pool/main/aero-bosna-apt_1.0.62_all.deb
 Size: 1372
-MD5sum: c9abba330d20b12eefaa80fc90f2ebd9
-SHA1: daadc662211d5eff9fd34d2211b4d600c881c1ac
-SHA256: 7508700eb90edfa4d8e732dfdd061dc4ca36c5c95fdf47b47ea90fd7a1b2286d
-SHA512: 9ee94f50af0b4d1aed3cd9c74a49eb25f523b9edbfdbbe3647221daf42b142709167426dea80cde57424e75e31d7da395ef12319b53794175eb4fecfdf1e3d0e
+MD5sum: 1e99f50253b4d1afcbf5fa15c0cdc317
+SHA1: 20ecb79bb39587a752179d09dbee3e7f7dc51198
+SHA256: 7327b16ab45fbdc6638c4807b010a47d5fc1248f27ece34d9925702521ebf01d
+SHA512: a679dbcbd8dff4587729ede9e6810193ca6bf5608343f1f78849a8cad52b506da573f492157900470df59bff0cbd6e5bcfb1d654404195feb718d8188b5a4b3d
 Description: Aero Bosna update repository
  Adds the signed Aero Bosna package repository to APT, so the theme,
  the Welcome app and system settings are updated with normal updates.
 
 Package: aero-bosna-desktop
 Architecture: all
-Version: 1.0.60
+Version: 1.0.62
 Priority: optional
 Section: metapackages
 Maintainer: Aero Bosna <noreply@aero-bosna.invalid>
 Depends: aero-bosna-apt, aero-bosna-welcome, aero-bosna-tweaks
-Filename: pool/main/aero-bosna-desktop_1.0.60_all.deb
+Filename: pool/main/aero-bosna-desktop_1.0.62_all.deb
 Size: 768
-MD5sum: dc874eb59155f819d795021057a1bcca
-SHA1: d5a0e803447d543fedea599dfd559daf781fd775
-SHA256: 5691ed7903dcb9d439400afdca8c25d8e1fe77074b7b7d9b09873a59c3deed08
-SHA512: 843d0a53f1ad6911f1bd1ca2c87bfb108f289c7f3c20c4896ea912cfdc9561be58e98d3f936c68c29b2f267941f8a0166a8bcbbd15615fb0fb528d8f22d85e54
+MD5sum: d1a8384d1bef3a4afd00fb5dd941ba91
+SHA1: 634d2d8cfa927d62328bfa2fcd8e95426a027642
+SHA256: c532dac65fa00ea3a06ca87443fc135b8c3a6a864ec27aa6694560251f43490d
+SHA512: e61a6475faaee1f12ba64d2fadd3ce6f7b76636fb10da9bcad678cbda4ff29b3d4383a4446e80a80ce55b6e3178366b223804dfd654b718b5adcf21f220ccedc
 Description: Aero Bosna desktop (metapackage)
  Pulls in all Aero Bosna packages; new ones arrive with normal updates.
 
 Package: aero-bosna-tweaks
 Architecture: all
-Version: 1.0.60
+Version: 1.0.62
 Priority: optional
 Section: admin
 Maintainer: Aero Bosna <noreply@aero-bosna.invalid>
-Filename: pool/main/aero-bosna-tweaks_1.0.60_all.deb
-Size: 2440
-MD5sum: 211e71c514cfa939b625a069ccb8882b
-SHA1: 4a1172416e76e4968c83f7199d80a90fea39639e
-SHA256: 92328c1f821cfb2167255e3244ae65d91faee9c5952acc40616fd0c9870298d1
-SHA512: ad43cd4b10cc2684c4a75f02e60e0413fa6a9a2885408c2781aca3648aee8dd937f3d606a648cb0e2749af13ff6e8b68d80e2c37b5d8beea2682431e9578ea6d
+Filename: pool/main/aero-bosna-tweaks_1.0.62_all.deb
+Size: 2712
+MD5sum: f52546fb906ac5fae3f207b49688edef
+SHA1: d7bd1b58564c5b12ed674f0a5cf1521aa310a2cf
+SHA256: c79a853ab49429722b53e5ad1d8ae03b2014624a34fdb64462c9cb1829525d95
+SHA512: fe9c5ec424f7dc2b35faa60b102e9196cf54408560b368200dd74ac2771554d35e9991271bed4a0186e5d7411f8336a70257e5665841d7d31136af61b8e27887
 Description: Aero Bosna system tweaks (less RAM, clean APT sources)
  - xfce4-notifyd starts only when a notification arrives (D-Bus activation)
  - unattended-upgrades shutdown helper disabled (updates still run by timer)
@@ -50,17 +50,17 @@ Description: Aero Bosna system tweaks (less RAM, clean APT sources)
 
 Package: aero-bosna-welcome
 Architecture: all
-Version: 1.0.60
+Version: 1.0.62
 Priority: optional
 Section: x11
 Maintainer: Aero Bosna <noreply@aero-bosna.invalid>
 Depends: python3, python3-gi, gir1.2-gtk-3.0
-Filename: pool/main/aero-bosna-welcome_1.0.60_all.deb
+Filename: pool/main/aero-bosna-welcome_1.0.62_all.deb
 Size: 80660
-MD5sum: 6b5db3658003ddc2bca5cef36893a71a
-SHA1: 496641e69fa34b84681867e2363a126e11122b6c
-SHA256: e06ee28db567e0ec10ddbddaeb673a8e52e3a901875c7dbcd9b38e862a3124af
-SHA512: e86840044646c90bf93d0a17013f0cbee2a1c529659f1673ca1bd447b6d443b236126af36bfe04654124594126eb7a8fde3b17d7f4b697221ae0fe1270868b4b
+MD5sum: 2b576fc2df55f2ccf92e0f36f4879cf7
+SHA1: 3f2c4047d537f207500281de260a5de2bc431bf0
+SHA256: 25033e30f982fe63544f8b51a8365e30c74e038097e3e0356df089e3028b2ed7
+SHA512: 139609a333e4cbb79f954dfd7d0f8df3211a55d3c6fb46fa307dace6073842447e276329c3ae5a2a781cedab261518cde67595c4215085867a72b16c8c5a32cd
 Description: Aero Bosna Welcome window
  Shown after login: first steps (Wi-Fi, updates, Timeshift, wallpaper,
  keyboard, settings), office and media apps, and short tips.
