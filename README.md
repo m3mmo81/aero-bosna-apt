@@ -4,6 +4,17 @@
 
 **[English](#english) · [Bosanski](#bosanski)**
 
+## Screenshots · Slike
+
+| | |
+|---|---|
+| ![Boot menu](screenshots/grub.jpg) | ![Boot splash](screenshots/splash.jpg) |
+| **Boot menu** | **Boot splash** |
+| ![Desktop](screenshots/desktop.jpg) | ![Start menu](screenshots/start-menu.jpg) |
+| **Desktop** | **Start menu** |
+
+**▶ Video:** https://youtu.be/wOGgYgMewTw
+
 ## English
 A lightweight Debian 13 "Trixie" desktop with a dark, Vista-inspired look and a golden dragon emblem.
 Made for older computers, runs on new ones too (UEFI, Secure Boot). *created by Karabeg dr Kemal*
