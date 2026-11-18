@@ -1,0 +1,67 @@
+Package: aero-bosna-apt
+Architecture: all
+Version: 1.0.71
+Priority: optional
+Section: admin
+Maintainer: Aero Bosna <noreply@aero-bosna.invalid>
+Filename: pool/main/aero-bosna-apt_1.0.71_all.deb
+Size: 1372
+MD5sum: 561cbcd5fd977084060b1b86206377fe
+SHA1: e7e522e0b1f95c5773dbb648671424d088f6f47c
+SHA256: 7226a9110b890b1bf6d783d6e09a6e33a4afe2c01b6fe3999046729bd83deec9
+SHA512: d991857fb14e80afc3d36bb25e51be9c9625a683a4341df23f0215ca63b0ce01424ce9ff5f76756c7a022c61ba0962cf4b3031ec1911038ede3edf93331f22f5
+Description: Aero Bosna update repository
+ Adds the signed Aero Bosna package repository to APT, so the theme,
+ the Welcome app and system settings are updated with normal updates.
+
+Package: aero-bosna-desktop
+Architecture: all
+Version: 1.0.71
+Priority: optional
+Section: metapackages
+Maintainer: Aero Bosna <noreply@aero-bosna.invalid>
+Depends: aero-bosna-apt, aero-bosna-welcome, aero-bosna-tweaks
+Filename: pool/main/aero-bosna-desktop_1.0.71_all.deb
+Size: 768
+MD5sum: c596295630ff4e4f29c885b0e21b659a
+SHA1: a7b3cc1582d4e027c228cbeb3dba32248131a903
+SHA256: 7c8b526252fc71637b332dbdade06fc76f6aebdb0c03ac2e9a3daef4b2427ac5
+SHA512: c9ebb7098bf5fb39b48fbf0af7df91b9e5e7bcd04fdf04851a939fce8119cd8cc979e344bb1ef964a808a20eeaea6c24427ffba08bf6474e828c7fada32360db
+Description: Aero Bosna desktop (metapackage)
+ Pulls in all Aero Bosna packages; new ones arrive with normal updates.
+
+Package: aero-bosna-tweaks
+Architecture: all
+Version: 1.0.71
+Priority: optional
+Section: admin
+Maintainer: Aero Bosna <noreply@aero-bosna.invalid>
+Filename: pool/main/aero-bosna-tweaks_1.0.71_all.deb
+Size: 2604
+MD5sum: 4709cc6048d46416450fe34711de2f6c
+SHA1: dd4f79717d5935fc896fc2d6c1fa077c2fb0445e
+SHA256: 66bd0c27b3c53dfb5eba10508ccd33344ea18d19de5afa1b084ab2007b1b539c
+SHA512: 63e8183344dd19280e43fd7d02c7cfc4dbe04ffe10fdbdffd286ec06f0404bc80c4089e1745aefd22670b91ea43852dc41f208470efcadb0c745db31ff293d84
+Description: Aero Bosna system tweaks (less RAM, clean APT sources)
+ - xfce4-notifyd starts only when a notification arrives (D-Bus activation)
+ - unattended-upgrades shutdown helper disabled (updates still run by timer)
+ - removes a duplicate trixie-backports APT source left by the installer
+ - desktop shortcut My Computer (opens File System) and its trust mark
+
+Package: aero-bosna-welcome
+Architecture: all
+Version: 1.0.71
+Priority: optional
+Section: x11
+Maintainer: Aero Bosna <noreply@aero-bosna.invalid>
+Depends: python3, python3-gi, gir1.2-gtk-3.0
+Filename: pool/main/aero-bosna-welcome_1.0.71_all.deb
+Size: 80656
+MD5sum: 76c7bd3567fac7fe1af02b2b7067894c
+SHA1: cb5710511dba629dbb1ffac629795df7760c23e6
+SHA256: fe1176274e1396f075cd03fa57e2e0a5a406402abbf3f9c397fc4c8d88089945
+SHA512: fb0fd1f3494cb1dd509cf36668e9886121bf849db1f99dd3994dc4c0e617ba529e1bc2fdfcdb5ecd40e83b8e1e3909b7a295d30d39ccc08ae922e07cdc5259df
+Description: Aero Bosna Welcome window
+ Shown after login: first steps (Wi-Fi, updates, Timeshift, wallpaper,
+ keyboard, settings), office and media apps, and short tips.
+
