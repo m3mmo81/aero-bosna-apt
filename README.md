@@ -32,6 +32,12 @@ sudo apt install ./aero-bosna-apt.deb
 sudo apt update && sudo apt install aero-bosna-desktop
 ```
 
+**Note for older Chromebooks:** Intel Chromebooks from about 2016–2018 (Skylake, Kaby Lake, Apollo Lake) with the
+max98357a speaker amplifier need the AVS sound driver, which Aero Bosna does not enable, so their speakers may stay silent.
+Do not enable it yourself (for example with the `--force-avs-install` option of the chromebook-linux-audio script):
+Linux does not have the speaker protection that ChromeOS has, and loud volume can permanently damage the speakers.
+Headphones and HDMI audio are safe.
+
 ## Bosanski
 Lagani Debian 13 "Trixie" desktop s tamnim izgledom inspirisanim Vistom i zlatnim zmajem.
 Pravljen za starije računare, radi i na novim (UEFI, Secure Boot). *created by Karabeg dr Kemal*
@@ -48,5 +54,10 @@ wget https://m3mmo81.github.io/aero-bosna-apt/aero-bosna-apt.deb
 sudo apt install ./aero-bosna-apt.deb
 sudo apt update && sudo apt install aero-bosna-desktop
 ```
+
+**Napomena za starije Chromebookove:** Intel Chromebookovi od otprilike 2016. do 2018. (Skylake, Kaby Lake, Apollo Lake)
+s pojačalom za zvučnike max98357a trebaju AVS drajver za zvuk, koji Aero Bosna ne uključuje, pa zvučnici mogu ostati nijemi.
+Ne uključujte ga sami (npr. opcijom `--force-avs-install` skripte chromebook-linux-audio): Linux nema zaštitu
+zvučnika kakvu ima ChromeOS, pa jak zvuk može trajno oštetiti zvučnike. Slušalice i HDMI zvuk su sigurni.
 
 Code GPL-3.0-or-later, artwork CC-BY-SA 4.0, KKTV © Karabeg dr Kemal.
