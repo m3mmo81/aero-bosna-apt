@@ -1,0 +1,91 @@
+Package: aero-bosna-apt
+Architecture: all
+Version: 1.0.87
+Priority: optional
+Section: admin
+Maintainer: Aero Bosna <noreply@aero-bosna.invalid>
+Filename: pool/main/aero-bosna-apt_1.0.87_all.deb
+Size: 1368
+MD5sum: d4221ae7f50afd5ae1f557b82fa37601
+SHA1: 444a220d1c0badf712cd91d7e6d70e9cacb5184c
+SHA256: f03851a37f74354958a8dd828e4b6bf168f33ad2589f519e06add2a0bf1cc2bf
+SHA512: 0a0c6831a14eba4e09aab7df89c793227c5c98d2fed494cf70ec9c13a48b88b7045498f0e6623c0cea45dec4df9e4b25b0040e9199153ab82d282718480f3856
+Description: Aero Bosna update repository
+ Adds the signed Aero Bosna package repository to APT, so the theme,
+ the Welcome app and system settings are updated with normal updates.
+
+Package: aero-bosna-desktop
+Architecture: all
+Version: 1.0.87
+Priority: optional
+Section: metapackages
+Maintainer: Aero Bosna <noreply@aero-bosna.invalid>
+Depends: aero-bosna-apt, aero-bosna-welcome, aero-bosna-tweaks
+Filename: pool/main/aero-bosna-desktop_1.0.87_all.deb
+Size: 764
+MD5sum: 400999fc4924e1960436906a5a79c2d3
+SHA1: 66880584ed43141a2c046e7d4a942ee85558e698
+SHA256: 6d68f6913019d4fb87a6063aa49b1d38c475df86896d2e96a599fa94c870cdf5
+SHA512: ecadad894da22dc351163668c429a3806e7746967680e1a025c92a533a7b55f28d3a57cc9cf0f4883342b3ba8503a0f1e677a30ff7733a4b28583ea983b2ffa2
+Description: Aero Bosna desktop (metapackage)
+ Pulls in all Aero Bosna packages; new ones arrive with normal updates.
+
+Package: aero-bosna-tweaks
+Architecture: all
+Version: 1.0.87
+Priority: optional
+Section: admin
+Maintainer: Aero Bosna <noreply@aero-bosna.invalid>
+Depends: alsa-ucm-conf
+Filename: pool/main/aero-bosna-tweaks_1.0.87_all.deb
+Size: 11344
+MD5sum: eac630dec53b2c90bfd5bd1b2a67c3a2
+SHA1: 4cb874b330a42fda3d8d31af56b7efd03477f050
+SHA256: 7bb98823c569210bdf89d72dd1f29709085a5a1e9f265deceadedbd03ddccafb
+SHA512: ae3e389767234b3f5f99ced952521281ba4395f3b649b3b1e7e8ee2123817f3044f1a3b5ade218f07c25adce1db3311ccd6edb58aead528185e096fb49f49240
+Description: Aero Bosna system tweaks (less RAM, clean APT sources)
+ - xfce4-notifyd starts only when a notification arrives (D-Bus activation)
+ - unattended-upgrades shutdown helper disabled (updates still run by timer)
+ - removes a duplicate trixie-backports APT source left by the installer
+ - desktop shortcut My Computer (opens File System) and its trust mark
+ - dragon wallpaper (Zmaj Noc) on every screen, whatever the output is called
+ - Chromebook audio (Intel SOF): ALSA UCM profiles and PipeWire headroom
+
+Package: aero-bosna-welcome
+Architecture: all
+Version: 1.0.87
+Priority: optional
+Section: x11
+Maintainer: Aero Bosna <noreply@aero-bosna.invalid>
+Depends: python3, python3-gi, gir1.2-gtk-3.0
+Filename: pool/main/aero-bosna-welcome_1.0.87_all.deb
+Size: 80656
+MD5sum: 3f2d6b7a55b65a98aafb654dcbcbece2
+SHA1: 141029f43b75b51919ba778c6a0560e6e9892854
+SHA256: 6bc0e874516f8701ce6a91c16abb30670a8114f75eb739f68b4013209a75a2ee
+SHA512: 84a167f02038b568f966757b8bf8f2d577f42f2a216c8d596d2a204c1f05bd21129531b20eee4022ffe666641a641a8900d1a8828c41e6019537c47ee836e25d
+Description: Aero Bosna Welcome window
+ Shown after login: first steps (Wi-Fi, updates, Timeshift, wallpaper,
+ keyboard, settings), office and media apps, and short tips.
+
+Package: kktv
+Architecture: amd64
+Version: 1.5.7
+Priority: optional
+Section: default
+Maintainer: Karabeg dr Kemal <kemal.karabeg@gmail.com>
+Installed-Size: 281352
+Depends: mpv, libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: pool/main/kktv_1.5.7_amd64.deb
+Size: 101649496
+MD5sum: 19ecc8d7b3ecda45613a74c390c796ba
+SHA1: fca295cb1ec856f7820e70cf5cc03591c374c9e9
+SHA256: 863d6539e460196b912edbcf7d8409687ee78848b716e54dac1823b6cc5be9d2
+SHA512: fba05794e489b54cf5228322a0fc3250a30023e1da60eed7ae6cb75b8ff3c1798570f828675aecf9735898876551530751c9f65e0a292fb94431bb9046ff96e4
+Homepage: https://it.drkarabeg.ba
+Description: IPTV player (TV uživo, filmovi, serije)
+  KKTV - IPTV player za M3U i Xtream Codes
+License: UNLICENSED
+Vendor: Karabeg dr Kemal <kemal.karabeg@gmail.com>
+

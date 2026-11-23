@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 all
+Codename: stable
+Components: main
+Date: Mon, 23 Nov 2026 13:28:46 +0000
+Label: Aero Bosna
+Origin: Aero Bosna
+Suite: stable
+MD5Sum:
+ c492caa90e3f7bcad47953dee76b7e60              148 Release
+ f93426e5d8f33478d03a12468c98d613             3161 main/binary-all/Packages
+ 2f4d66dcdc9627a0111e34110940e018             1588 main/binary-all/Packages.gz
+ b243f8d1e6b9c700e73d22c9d22f70de             4029 main/binary-amd64/Packages
+ ab4853dd97662b165a7d651645a80282             2049 main/binary-amd64/Packages.gz
+SHA1:
+ 18e302a9519e40070bbfef1cd283fdc000c0fe1c              148 Release
+ fc913f71512abdda535fb1d57846f0127cbdb6d7             3161 main/binary-all/Packages
+ 4c0c42d332dee114daa9f52533c1830a13f1f49a             1588 main/binary-all/Packages.gz
+ 3c6e86bde80502ec97aa2b9ed3bfa2e7e2ee41ac             4029 main/binary-amd64/Packages
+ bedf088a4a4482fcdf4f9dd680debfde760a0847             2049 main/binary-amd64/Packages.gz
+SHA256:
+ 8c8c2effe3415a9c1f9fdf1c47e84451692356bbe38169f788e2afc2725f3a8a              148 Release
+ 69d974912ef5965068cd2421a178a3de2d1434af232e5298dfee36fd9b7de530             3161 main/binary-all/Packages
+ 77a185cfeaee4a8593cb3192f2343cc7608d6007dc908b3c7efda787438fca60             1588 main/binary-all/Packages.gz
+ cb73e88f6dd4fc52198c00885af1dad676d451caf53f5d13c45ae8dd73115be4             4029 main/binary-amd64/Packages
+ 70e563f0576ccba0f3bb07a614785e133d0133d0ebe6eb0429f1c1460c80b235             2049 main/binary-amd64/Packages.gz
+SHA512:
+ 5b4e68834c5ce5dc527871c2f93abfab7407d313adcb3ee9f61f0a15ed8464515a00b112c68a84942cff0138a891a31bf45ec8080c6d2b95cfb464c3e1544d2e              148 Release
+ b186e41037cff48519cc38abbb975826de12ca565cae6ef60b3ab69ec6abff56f039ec04f7cf09659e194f45ad7d8866982c5f422e11e02e100ec9d51b38d0cb             3161 main/binary-all/Packages
+ b69f5962277aa65ee922d04f2742d3a7023f7e110c0cc0b7c9dd4bdd2788cfbadbe2266ab160fa292eae977101edf0a46fa196d3ff3abcf5825b55568786c51b             1588 main/binary-all/Packages.gz
+ 66716dc491e83b41a3b9761bf768ed4367497ca6b76ec958f706d430fda73c2852ac4bcdc766a8084c337933d96382d56e1dfc721390e0579ad69b36dbbd872c             4029 main/binary-amd64/Packages
+ a78f88fb7e910fec38a38e7b393293d84f501e9a4c6ba7cb1cdbcec631f378b79a13ef8d5d0e2e4009ddc55f859161802cbe56e07e432a6dc91a50d245dd5dec             2049 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQRF69HTihKT0ijnXo1IRYuMuT+NwUCawQ/jgAKCRA1IRYuMuT+
+NyH8AP0dhsNdWy5EZZBiHgRwOH4S8k7kz0UudayiBsCOPCF7WQD9EwgeSLeAgPNc
+gP1pPcvu0N03t6tGiv1ZTSdhbCdvIgY=
+=az9e
+-----END PGP SIGNATURE-----
